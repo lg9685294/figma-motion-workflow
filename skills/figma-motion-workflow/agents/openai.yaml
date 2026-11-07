@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma 动效工作流"
+  short_description: "从参考拆解到 Figma 动效制作、时序联动、局部修复与逐帧验收"
+  default_prompt: "使用 $figma-motion-workflow，根据提供的 Figma 节点、源图形和参考动效，整理有效参数并制作或修复动效，完成时序与视觉验收。"

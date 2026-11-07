@@ -1,0 +1,41 @@
+{
+  "status": "anonymous-code-illustration-not-figma-export",
+  "spec_source": "../../skills/figma-motion-workflow/assets/timeline.example.json",
+  "audit": {
+    "complete": true,
+    "resolution_complete": true,
+    "events": [
+      {
+        "id": "line",
+        "duration_ms": 300.0,
+        "start_ms": 100.0,
+        "end_ms": 400.0,
+        "easing_status": "known"
+      },
+      {
+        "id": "appear",
+        "duration_ms": 200.0,
+        "start_ms": 322.13338184094846,
+        "end_ms": 522.1333818409485,
+        "easing_status": "known"
+      },
+      {
+        "id": "rotate",
+        "duration_ms": 200.0,
+        "start_ms": 502.13338184094846,
+        "end_ms": 702.1333818409485,
+        "easing_status": "known"
+      },
+      {
+        "id": "settle",
+        "duration_ms": 50.0,
+        "start_ms": 702.1333818409485,
+        "end_ms": 752.1333818409485,
+        "easing_status": "omitted"
+      }
+    ],
+    "resolved_total_ms": 752.1333818409485,
+    "resolved_total_is_partial": false,
+    "issues": []
+  }
+}

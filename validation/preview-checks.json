@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "scope": "Local GitHub-style review only; not a GitHub publication or Figma playback validation.",
+  "checked_date": "2026-11-06",
+  "browser": "Google Chrome, isolated Playwright headless session",
+  "preview_is_self_contained": true,
+  "browser_checks": {
+    "pages_checked": 52,
+    "viewport": 390,
+    "mobile_overflow": [],
+    "unpublished_notice_visible": true,
+    "clipboard_matches": true,
+    "readme_anchor_works": true,
+    "directory_navigation_works": true,
+    "file_navigation_works": true,
+    "markdown_table_rendered": true,
+    "markdown_code_tab": true,
+    "markdown_preview_tab": true,
+    "zip_download_matches": true,
+    "zip_download_bytes": 24769,
+    "page_errors": []
+  },
+  "link_and_source_audit": {
+    "html_pages": 52,
+    "local_links_checked": 671,
+    "raw_files_hash_checked": 35,
+    "issues": []
+  },
+  "original_demo": {
+    "status": "Anonymous code illustration, not a measured Figma export",
+    "derived_appear_start_ms": 322.13338184094846,
+    "derived_rotate_start_ms": 502.13338184094846,
+    "derived_total_ms": 752.1333818409485,
+    "parameters_are_example_only": true
+  },
+  "screenshots_retained_in_separate_preview": [
+    "desktop.png",
+    "readme-desktop.png",
+    "mobile-390.png",
+    "mobile-390-top.png",
+    "readme-mobile-390.png"
+  ],
+  "limits": [
+    "This approximates GitHub rendering; actual GitHub may differ.",
+    "No repository creation, upload, commit, Stars operation, or remote Actions run was performed."
+  ]
+}

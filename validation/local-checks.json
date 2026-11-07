@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-06",
+  "status": "passed",
+  "publication_state": "local-review-only",
+  "python_tested": "3.9.6",
+  "unit_tests": {
+    "passed": 17,
+    "failed": 0
+  },
+  "skill_format": "passed",
+  "local_reference_files": "passed",
+  "public_text_scan": "passed",
+  "archive_integrity": "passed",
+  "archive_source_equality": "passed",
+  "download_checksum": "passed",
+  "synthetic_example_total_ms": 752.1333818409485,
+  "figma_end_to_end_verified": false,
+  "github_actions_executed": false,
+  "github_published": false,
+  "original_project_files_included": false
+}

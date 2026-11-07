@@ -1,0 +1,10 @@
+{
+  "example_only": true,
+  "note": "演示单调曲线与两级依赖，不代表任何项目的最终参数。",
+  "events": [
+    {"id": "line", "start_ms": 100, "duration_ms": 300, "easing": "cubic-bezier(0,0,0.58,1)"},
+    {"id": "appear", "duration_ms": 200, "easing": "linear", "trigger": {"event": "line", "at": "progress", "progress": 0.9, "delay_ms": 0}},
+    {"id": "rotate", "duration_ms": 200, "easing": "linear", "trigger": {"event": "appear", "at": "progress", "progress": 0.9, "delay_ms": 0}},
+    {"id": "settle", "duration_ms": 50, "trigger": {"event": "rotate", "at": "end", "delay_ms": 0}}
+  ]
+}
